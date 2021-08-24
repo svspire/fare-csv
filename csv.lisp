@@ -60,7 +60,7 @@ Share and enjoy!
 ; -----------------------------------------------------------------------------
 ;;; Optimization
 (eval-when (:compile-toplevel :execute)
-  (declaim (optimize (speed 3) (safety 1) (debug 3))
+  (declaim (optimize (speed 3) (safety 1) (debug 1))
            #+sbcl (sb-ext:muffle-conditions sb-ext:compiler-note)))
 
 ; -----------------------------------------------------------------------------
